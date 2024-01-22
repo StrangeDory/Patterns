@@ -7,106 +7,33 @@
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnCoffee"
+        android:id="@+id/btnInstance1"
         android:layout_width="@dimen/dimen_200"
         android:layout_height="@dimen/dimen_50"
         android:layout_marginTop="@dimen/dimen_16"
-        android:text="Coffee"
+        android:text="Get instance 1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnDoubleCoffee"
+        android:id="@+id/btnInstance2"
         android:layout_width="@dimen/dimen_200"
         android:layout_height="@dimen/dimen_50"
         android:layout_marginTop="@dimen/dimen_16"
-        android:text="Double Coffee"
+        android:text="Get instance 2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnCoffee" />
+        app:layout_constraintTop_toBottomOf="@id/btnInstance1" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnCoffeeMilk"
+        android:id="@+id/btnCheck"
         android:layout_width="@dimen/dimen_200"
         android:layout_height="@dimen/dimen_50"
         android:layout_marginTop="@dimen/dimen_16"
-        android:text="Coffee with milk"
+        android:text="Check"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnDoubleCoffee" />
-
-    <CheckBox
-        android:id="@+id/checkCoffee"
-        android:layout_width="@dimen/dimen_200"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/dimen_16"
-        android:text="Coffee"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnCoffeeMilk" />
-
-    <CheckBox
-        android:id="@+id/checkDoubleCoffee"
-        android:layout_width="@dimen/dimen_200"
-        android:layout_height="wrap_content"
-        android:text="Double Coffee"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/checkCoffee" />
-
-    <CheckBox
-        android:id="@+id/checkMilk"
-        android:layout_width="@dimen/dimen_200"
-        android:layout_height="wrap_content"
-        android:text="Milk"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/checkDoubleCoffee" />
-
-    <CheckBox
-        android:id="@+id/checkCream"
-        android:layout_width="@dimen/dimen_200"
-        android:layout_height="wrap_content"
-        android:text="Cream"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/checkMilk" />
-
-    <CheckBox
-        android:id="@+id/checkSugar"
-        android:layout_width="@dimen/dimen_200"
-        android:layout_height="wrap_content"
-        android:text="Sugar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/checkCream" />
-
-    <CheckBox
-        android:id="@+id/checkCinnamon"
-        android:layout_width="@dimen/dimen_200"
-        android:layout_height="wrap_content"
-        android:text="Cinnamon"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/checkSugar" />
-
-    <CheckBox
-        android:id="@+id/checkSyrup"
-        android:layout_width="@dimen/dimen_200"
-        android:layout_height="wrap_content"
-        android:text="Syrup"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/checkCinnamon" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnBuild"
-        android:layout_width="@dimen/dimen_200"
-        android:layout_height="@dimen/dimen_50"
-        android:text="Build"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/checkSyrup" />
+        app:layout_constraintTop_toBottomOf="@id/btnInstance2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
