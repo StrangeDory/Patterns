@@ -7,33 +7,43 @@
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnInstance1"
+        android:id="@+id/btnWaterTransport"
         android:layout_width="@dimen/dimen_200"
         android:layout_height="@dimen/dimen_50"
         android:layout_marginTop="@dimen/dimen_16"
-        android:text="Get instance 1"
+        android:text="Water transport"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnInstance2"
+        android:id="@+id/btnRailwayTransport"
         android:layout_width="@dimen/dimen_200"
         android:layout_height="@dimen/dimen_50"
         android:layout_marginTop="@dimen/dimen_16"
-        android:text="Get instance 2"
+        android:text="Railway Transport"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnInstance1" />
+        app:layout_constraintTop_toBottomOf="@id/btnWaterTransport" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnCheck"
+        android:id="@+id/btnAirTransport"
         android:layout_width="@dimen/dimen_200"
         android:layout_height="@dimen/dimen_50"
         android:layout_marginTop="@dimen/dimen_16"
-        android:text="Check"
+        android:text="Air Transport"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnInstance2" />
+        app:layout_constraintTop_toBottomOf="@id/btnRailwayTransport" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAutoTransport"
+        android:layout_width="@dimen/dimen_200"
+        android:layout_height="@dimen/dimen_50"
+        android:layout_marginTop="@dimen/dimen_16"
+        android:text="Auto Transport"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnAirTransport" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
